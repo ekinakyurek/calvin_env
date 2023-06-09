@@ -74,8 +74,8 @@ class Tasks:
 
         end_contacts = set(c[2] for c in obj_end_info["contacts"])
         robot_uid = {start_info["robot_info"]["uid"]}
-        if len(end_contacts - robot_uid) == 0:
-            return False
+        # if len(end_contacts - robot_uid) == 0:
+        #     return False
 
         if z_degrees > 0:
             return z_degrees < z < z_threshold and abs(x) < x_y_threshold and abs(y) < x_y_threshold
