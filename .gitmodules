@@ -1,3 +1,4 @@
 [submodule "tacto"]
 	path = tacto
 	url = https://github.com/lukashermann/tacto.git
+	branch = main
